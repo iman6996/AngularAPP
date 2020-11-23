@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DateService } from '../service/date.service';
 
 @Component({
   selector: 'app-home',
@@ -36,7 +37,7 @@ export class HomeComponent implements OnInit {
     }
   ];
 
-  constructor() { }
+  constructor(public dateService : DateService) { }
 
   ngOnInit(): void {
   }
