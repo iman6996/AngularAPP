@@ -9,6 +9,8 @@ import { FooterComponent } from './footer/footer.component';
 import { GaleryComponent } from './galery/galery.component';
 import { ContactComponent } from './contact/contact.component';
 import { FormsModule } from '@angular/forms';
+import { AdminComponent } from './admin/admin.component';
+import { AuthComponent } from './auth/auth.component';
 
 
 @NgModule({
@@ -19,6 +21,8 @@ import { FormsModule } from '@angular/forms';
     FooterComponent,
     GaleryComponent,
     ContactComponent,
+    AdminComponent,
+    AuthComponent,
   ],
   imports: [
     BrowserModule,
